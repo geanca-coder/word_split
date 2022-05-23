@@ -11,12 +11,12 @@ The intention of this project is to be executed along with docker, therefore ass
 install in your machine up and running, these are the neccesary commands to run it.
 
 ### Commands to install it and run it
-#### 1.  docker build -t video_lightning .
+##### docker build -t video_lightning .
 
-#### 2.  docker run -p <port from the outside>:<port from the inside> video_lightning 
+##### docker run -p <port from the outside>:<port from the inside> video_lightning 
 
 
-### 2.1 Example: docker run -p 8000:8000 video_lightning 
+## 2.1 Example: docker run -p 8000:8000 video_lightning 
 
 ## 3.  Open your browser, go to 127.0.0.1:8000/docs
 
