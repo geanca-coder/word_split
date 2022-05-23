@@ -13,7 +13,7 @@ install in your machine up and running, these are the neccesary commands to run 
 ### Commands to install it and run it
 ##### docker build -t video_lightning .
 
-##### docker run -p <port from the outside>:<port from the inside> video_lightning 
+##### docker run -p <port from the outside> : <port from the inside> video_lightning 
 
 
 ## 2.1 Example: docker run -p 8000:8000 video_lightning 
